@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/logo.png" />
+    <meta name="viewport" content="width=1000,user-scalable=no" />
+    <meta name="theme-color" content="#000000" />
+    <link
+      href="%PUBLIC_URL%/screen.css?v=1"
+      media="screen, projection"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <meta name="og:image" content="%PUBLIC_URL%/logo.png" />
+    <meta name="og:description" content="Imaginary Ones Fan Game" />
+    <meta name="og:title" content="Imaginary Ones Fan Game" />
+    <meta name="og:site_name" content="Imaginary Ones Fan Game" />
+    <meta name="og:type" content="type" />
+
+    <meta name="description" content="Imaginary Ones Fan Game" />
+
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      .content {
+        width: 1000px;
+        height: 1800px;
+      }
+
+      html {
+        margin: 0 auto;
+        padding: 0;
+        overflow-x: hidden;
+      }
+      body {
+        font-family: "Noto Sans TC", sans-serif !important;
+        overflow-x: hidden;
+        position: relative;
+      }
+
+      img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+      }
+
+      @keyframes carousel_banner {
+        0% {
+          -moz-transform: translateX(0px);
+          -ms-transform: translateX(0px);
+          -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+        }
+
+        100% {
+          -moz-transform: translateX(-1600px);
+          -ms-transform: translateX(-1600px);
+          -webkit-transform: translateX(-1600px);
+          transform: translateX(-1600px);
+        }
+      }
+    </style>
+
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Imaginary Ones Fan Game</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>
